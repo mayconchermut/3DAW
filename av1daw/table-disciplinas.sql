@@ -1,0 +1,1 @@
+CREATE TABLE `av1daw`.`disciplina` ( `id` INT NOT NULL AUTO_INCREMENT , `nomeDisc` VARCHAR(100) NOT NULL , `periodo` VARCHAR(5) NOT NULL , `idPreRequisito` VARCHAR(5) NOT NULL , `creditos` VARCHAR(5) NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
